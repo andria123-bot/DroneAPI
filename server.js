@@ -8,7 +8,7 @@ app.use(bodyParser.json())
 const PORT = 3005
 
 app.get('/', (req, res) => {
-  res.send('Welcome to my API')
+  res.send('Go to https://djidroneapi.vercel.app/drones')
 })
 
 app.get('/drones', (req, res) => {
