@@ -1,39 +1,890 @@
 [
-  { "id": 1, "model": "DJI Mini 3", "name": "SkyMini", "speed": 50 },
-  { "id": 2, "model": "DJI Mini 3 Pro", "name": "SkyMini Pro", "speed": 60 },
-  { "id": 3, "model": "DJI Mini 3 SE", "name": "SkyMini SE", "speed": 50 },
-  { "id": 4, "model": "DJI Mini 2", "name": "SkyMini 2", "speed": 58 },
-  { "id": 5, "model": "DJI Mini SE", "name": "SkyMini SE", "speed": 57 },
-  { "id": 6, "model": "DJI Mini", "name": "SkyMini", "speed": 46 },
-  { "id": 7, "model": "DJI Air 2S", "name": "SkyAir 2S", "speed": 68 },
-  { "id": 8, "model": "DJI Air 2", "name": "SkyAir 2", "speed": 68 },
-  { "id": 9, "model": "DJI Air", "name": "SkyAir", "speed": 68 },
-  { "id": 10, "model": "DJI Mavic 3 Pro", "name": "SkyMavic 3 Pro", "speed": 75 },
-  { "id": 11, "model": "DJI Mavic 3 Classic", "name": "SkyMavic 3 Classic", "speed": 75 },
-  { "id": 12, "model": "DJI Mavic 3", "name": "SkyMavic 3", "speed": 75 },
-  { "id": 13, "model": "DJI Mavic 2 Pro", "name": "SkyMavic 2 Pro", "speed": 72 },
-  { "id": 14, "model": "DJI Mavic 2 Zoom", "name": "SkyMavic 2 Zoom", "speed": 72 },
-  { "id": 15, "model": "DJI Mavic 2 Enterprise", "name": "SkyMavic 2 Enterprise", "speed": 72 },
-  { "id": 16, "model": "DJI Mavic Air 2", "name": "SkyMavic Air 2", "speed": 68 },
-  { "id": 17, "model": "DJI Mavic Air", "name": "SkyMavic Air", "speed": 68 },
-  { "id": 18, "model": "DJI Phantom 4 Pro V2.0", "name": "SkyPhantom 4 Pro V2.0", "speed": 72 },
-  { "id": 19, "model": "DJI Phantom 4 Pro", "name": "SkyPhantom 4 Pro", "speed": 72 },
-  { "id": 20, "model": "DJI Phantom 4 Advanced", "name": "SkyPhantom 4 Advanced", "speed": 72 },
-  { "id": 21, "model": "DJI Phantom 4 RTK", "name": "SkyPhantom 4 RTK", "speed": 72 },
-  { "id": 22, "model": "DJI Phantom 4", "name": "SkyPhantom 4", "speed": 72 },
-  { "id": 23, "model": "DJI Inspire 2", "name": "SkyInspire 2", "speed": 94 },
-  { "id": 24, "model": "DJI Inspire 1", "name": "SkyInspire 1", "speed": 80 },
-  { "id": 25, "model": "DJI Matrice 300 RTK", "name": "SkyMatrice 300 RTK", "speed": 72 },
-  { "id": 26, "model": "DJI Matrice 200 V2", "name": "SkyMatrice 200 V2", "speed": 72 },
-  { "id": 27, "model": "DJI Matrice 210 V2", "name": "SkyMatrice 210 V2", "speed": 72 },
-  { "id": 28, "model": "DJI Matrice 600", "name": "SkyMatrice 600", "speed": 65 },
-  { "id": 29, "model": "DJI Matrice 600 Pro", "name": "SkyMatrice 600 Pro", "speed": 65 },
-  { "id": 30, "model": "DJI Agras T30", "name": "SkyAgras T30", "speed": 15 },
-  { "id": 31, "model": "DJI Agras T20", "name": "SkyAgras T20", "speed": 15 },
-  { "id": 32, "model": "DJI Agras T10", "name": "SkyAgras T10", "speed": 15 },
-  { "id": 33, "model": "DJI Agras MG-1", "name": "SkyAgras MG-1", "speed": 15 },
-  { "id": 34, "model": "DJI Agras MG-1S", "name": "SkyAgras MG-1S", "speed": 15 },
-  { "id": 35, "model": "DJI Agras MG-1P", "name": "SkyAgras MG-1P", "speed": 15 },
-  { "id": 36, "model": "DJI Agras MG-1S Pro", "name": "SkyAgras MG-1S Pro", "speed": 15 },
-  { "id": 37, "model": "DJI Agras MG-1P Pro", "name": "SkyAgras MG-1P Pro", "speed": 15 }
+  {
+    "id": 1,
+    "model": "DJI Phantom 1",
+    "name": "Phantom 1",
+    "speed_kmh": 36,
+    "weight_g": 1000,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "350×350×200"
+    },
+    "camera": {
+      "sensor": "None (GoPro Mount)",
+      "megapixels": 0,
+      "video_resolution": "N/A",
+      "gimbal": "None"
+    },
+    "battery": {
+      "capacity_mAh": 2200,
+      "max_flight_time_min": 10
+    },
+    "max_altitude_m": 2500,
+    "sensors": ["GPS"],
+    "transmission": "Standard 2.4GHz"
+  },
+  {
+    "id": 2,
+    "model": "DJI Phantom 2",
+    "name": "Phantom 2",
+    "speed_kmh": 45,
+    "weight_g": 1167,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "350×350×200"
+    },
+    "camera": {
+      "sensor": "None (GoPro/H3-3D Gimbal)",
+      "megapixels": 0,
+      "video_resolution": "N/A",
+      "gimbal": "Optional Zenmuse H3-3D"
+    },
+    "battery": {
+      "capacity_mAh": 5200,
+      "max_flight_time_min": 25
+    },
+    "max_altitude_m": 2500,
+    "sensors": ["GPS"],
+    "transmission": "Standard 2.4GHz"
+  },
+  {
+    "id": 3,
+    "model": "DJI Phantom 3 Standard",
+    "name": "Phantom 3 Standard",
+    "speed_kmh": 57,
+    "weight_g": 1216,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "350×350×200"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "2.7K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 4480,
+      "max_flight_time_min": 25
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["GPS/GLONASS"],
+    "transmission": "Wi-Fi"
+  },
+  {
+    "id": 4,
+    "model": "DJI Phantom 3 Advanced",
+    "name": "Phantom 3 Advanced",
+    "speed_kmh": 57,
+    "weight_g": 1280,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "350×350×200"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "2.7K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 4480,
+      "max_flight_time_min": 23
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Vision Positioning", "GPS/GLONASS"],
+    "transmission": "Lightbridge"
+  },
+  {
+    "id": 5,
+    "model": "DJI Phantom 3 Professional",
+    "name": "Phantom 3 Pro",
+    "speed_kmh": 57,
+    "weight_g": 1280,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "350×350×200"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 4480,
+      "max_flight_time_min": 23
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Vision Positioning", "GPS/GLONASS"],
+    "transmission": "Lightbridge"
+  },
+  {
+    "id": 6,
+    "model": "DJI Phantom 4",
+    "name": "Phantom 4",
+    "speed_kmh": 72,
+    "weight_g": 1380,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "350×350×200"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 5350,
+      "max_flight_time_min": 28
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Forward & Downward Vision", "GPS/GLONASS"],
+    "transmission": "Lightbridge"
+  },
+  {
+    "id": 7,
+    "model": "DJI Phantom 4 Pro",
+    "name": "Phantom 4 Pro",
+    "speed_kmh": 72,
+    "weight_g": 1388,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "350×350×200"
+    },
+    "camera": {
+      "sensor": "1\" CMOS",
+      "megapixels": 20,
+      "video_resolution": "4K@60fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 5870,
+      "max_flight_time_min": 30
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Forward, Backward, Downward Vision", "Infrared Sensing"],
+    "transmission": "Lightbridge"
+  },
+  {
+    "id": 8,
+    "model": "DJI Phantom 4 Pro V2.0",
+    "name": "Phantom 4 Pro V2.0",
+    "speed_kmh": 72,
+    "weight_g": 1375,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "350×350×200"
+    },
+    "camera": {
+      "sensor": "1\" CMOS",
+      "megapixels": 20,
+      "video_resolution": "4K@60fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 5870,
+      "max_flight_time_min": 30
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Forward, Backward, Downward Vision", "Infrared Sensing"],
+    "transmission": "OcuSync"
+  },
+  {
+    "id": 9,
+    "model": "DJI Phantom 4 RTK",
+    "name": "Phantom 4 RTK",
+    "speed_kmh": 58,
+    "weight_g": 1391,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "350×350×200"
+    },
+    "camera": {
+      "sensor": "1\" CMOS",
+      "megapixels": 20,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 5870,
+      "max_flight_time_min": 30
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["RTK Module", "Vision System", "GPS/GLONASS/Galileo"],
+    "transmission": "Lightbridge"
+  },
+  {
+    "id": 10,
+    "model": "DJI Inspire 1",
+    "name": "Inspire 1",
+    "speed_kmh": 80,
+    "weight_g": 2935,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "437×413×310"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS (Z3)",
+      "megapixels": 12,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis (Interchangeable)"
+    },
+    "battery": {
+      "capacity_mAh": 4500,
+      "max_flight_time_min": 18
+    },
+    "max_altitude_m": 4500,
+    "sensors": ["GPS/GLONASS"],
+    "transmission": "Lightbridge"
+  },
+  {
+    "id": 11,
+    "model": "DJI Inspire 2",
+    "name": "Inspire 2",
+    "speed_kmh": 94,
+    "weight_g": 3440,
+    "dimensions_mm": {
+      "folded": "N/A",
+      "unfolded": "425×430×300"
+    },
+    "camera": {
+      "sensor": "Interchangeable (e.g., Zenmuse X7)",
+      "megapixels": 24,
+      "video_resolution": "6K@30fps (X7)",
+      "gimbal": "3-axis (Interchangeable)"
+    },
+    "battery": {
+      "capacity_mAh": 4280,
+      "max_flight_time_min": 27
+    },
+    "max_altitude_m": 4500,
+    "sensors": ["Forward Vision", "GPS/GLONASS"],
+    "transmission": "Lightbridge 2"
+  },
+  {
+    "id": 12,
+    "model": "DJI Mavic Pro",
+    "name": "Mavic Pro",
+    "speed_kmh": 65,
+    "weight_g": 734,
+    "dimensions_mm": {
+      "folded": "83×83×198",
+      "unfolded": "83×83×198"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 3830,
+      "max_flight_time_min": 27
+    },
+    "max_altitude_m": 5000,
+    "sensors": ["Forward & Downward Vision", "GPS/GLONASS"],
+    "transmission": "OcuSync 1.0"
+  },
+  {
+    "id": 13,
+    "model": "DJI Mavic Pro Platinum",
+    "name": "Mavic Pro Platinum",
+    "speed_kmh": 65,
+    "weight_g": 734,
+    "dimensions_mm": {
+      "folded": "83×83×198",
+      "unfolded": "83×83×198"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 3830,
+      "max_flight_time_min": 30
+    },
+    "max_altitude_m": 5000,
+    "sensors": ["Forward & Downward Vision", "GPS/GLONASS"],
+    "transmission": "OcuSync 1.0"
+  },
+  {
+    "id": 14,
+    "model": "DJI Mavic Air",
+    "name": "Mavic Air",
+    "speed_kmh": 68,
+    "weight_g": 430,
+    "dimensions_mm": {
+      "folded": "168×83×49",
+      "unfolded": "168×184×64"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 2375,
+      "max_flight_time_min": 21
+    },
+    "max_altitude_m": 5000,
+    "sensors": ["Forward, Backward, Downward Vision"],
+    "transmission": "Enhanced Wi-Fi"
+  },
+  {
+    "id": 15,
+    "model": "DJI Mavic 2 Zoom",
+    "name": "Mavic 2 Zoom",
+    "speed_kmh": 72,
+    "weight_g": 905,
+    "dimensions_mm": {
+      "folded": "214×91×84",
+      "unfolded": "322×242×84"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 3850,
+      "max_flight_time_min": 31
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Omnidirectional Vision"],
+    "transmission": "OcuSync 2.0"
+  },
+  {
+    "id": 16,
+    "model": "DJI Mavic 2 Pro",
+    "name": "Mavic 2 Pro",
+    "speed_kmh": 72,
+    "weight_g": 907,
+    "dimensions_mm": {
+      "folded": "214×91×84",
+      "unfolded": "322×242×84"
+    },
+    "camera": {
+      "sensor": "1\" CMOS (Hasselblad)",
+      "megapixels": 20,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 3850,
+      "max_flight_time_min": 31
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Omnidirectional Vision"],
+    "transmission": "OcuSync 2.0"
+  },
+  {
+    "id": 17,
+    "model": "DJI Mavic Mini",
+    "name": "Mavic Mini",
+    "speed_kmh": 46,
+    "weight_g": 249,
+    "dimensions_mm": {
+      "folded": "140×81×57",
+      "unfolded": "160×202×55"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "2.7K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 2400,
+      "max_flight_time_min": 30
+    },
+    "max_altitude_m": 3000,
+    "sensors": ["Downward Vision"],
+    "transmission": "Enhanced Wi-Fi"
+  },
+  {
+    "id": 18,
+    "model": "DJI Mavic Air 2",
+    "name": "Mavic Air 2",
+    "speed_kmh": 68,
+    "weight_g": 570,
+    "dimensions_mm": {
+      "folded": "180×97×84",
+      "unfolded": "183×253×77"
+    },
+    "camera": {
+      "sensor": "1/2\" CMOS",
+      "megapixels": 48,
+      "video_resolution": "4K@60fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 3500,
+      "max_flight_time_min": 34
+    },
+    "max_altitude_m": 5000,
+    "sensors": ["Forward, Backward, Downward Vision"],
+    "transmission": "OcuSync 2.0"
+  },
+  {
+    "id": 19,
+    "model": "DJI Mini 2",
+    "name": "Mini 2",
+    "speed_kmh": 57,
+    "weight_g": 249,
+    "dimensions_mm": {
+      "folded": "138×81×58",
+      "unfolded": "159×203×56"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 2250,
+      "max_flight_time_min": 31
+    },
+    "max_altitude_m": 4000,
+    "sensors": ["Downward Vision"],
+    "transmission": "OcuSync 2.0"
+  },
+  {
+    "id": 20,
+    "model": "DJI FPV",
+    "name": "FPV Drone",
+    "speed_kmh": 140,
+    "weight_g": 795,
+    "dimensions_mm": {
+      "folded": "255×312×127",
+      "unfolded": "255×312×127"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "4K@60fps",
+      "gimbal": "1-axis (Tilt)"
+    },
+    "battery": {
+      "capacity_mAh": 2000,
+      "max_flight_time_min": 20
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Forward & Downward Vision"],
+    "transmission": "O3 (OcuSync 3.0)"
+  },
+  {
+    "id": 21,
+    "model": "DJI Mavic 3",
+    "name": "Mavic 3",
+    "speed_kmh": 75,
+    "weight_g": 895,
+    "dimensions_mm": {
+      "folded": "221×96×90",
+      "unfolded": "347×283×107"
+    },
+    "camera": {
+      "sensor": "4/3\" CMOS (Hasselblad)",
+      "megapixels": 20,
+      "video_resolution": "5.1K@50fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 5000,
+      "max_flight_time_min": 46
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Omnidirectional Vision"],
+    "transmission": "O3 (OcuSync 3.0)"
+  },
+  {
+    "id": 22,
+    "model": "DJI Mini 3",
+    "name": "Mini 3",
+    "speed_kmh": 57,
+    "weight_g": 248,
+    "dimensions_mm": {
+      "folded": "148×90×62",
+      "unfolded": "251×362×70"
+    },
+    "camera": {
+      "sensor": "1/1.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 2453,
+      "max_flight_time_min": 38
+    },
+    "max_altitude_m": 4000,
+    "sensors": ["Forward, Backward, Downward Vision"],
+    "transmission": "O2 (OcuSync 2.0)"
+  },
+  {
+    "id": 23,
+    "model": "DJI Mini 3 Pro",
+    "name": "Mini 3 Pro",
+    "speed_kmh": 57,
+    "weight_g": 249,
+    "dimensions_mm": {
+      "folded": "145×90×62",
+      "unfolded": "171×245×62"
+    },
+    "camera": {
+      "sensor": "1/1.3\" CMOS",
+      "megapixels": 48,
+      "video_resolution": "4K@60fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 2453,
+      "max_flight_time_min": 34
+    },
+    "max_altitude_m": 4000,
+    "sensors": ["Forward, Backward, Downward Vision"],
+    "transmission": "O3 (OcuSync 3.0)"
+  },
+  {
+    "id": 24,
+    "model": "DJI Avata",
+    "name": "Avata",
+    "speed_kmh": 97,
+    "weight_g": 410,
+    "dimensions_mm": {
+      "folded": "180×180×80",
+      "unfolded": "180×180×80"
+    },
+    "camera": {
+      "sensor": "1/1.7\" CMOS",
+      "megapixels": 48,
+      "video_resolution": "4K@60fps",
+      "gimbal": "1-axis (Tilt)"
+    },
+    "battery": {
+      "capacity_mAh": 2420,
+      "max_flight_time_min": 18
+    },
+    "max_altitude_m": 5000,
+    "sensors": ["Downward Vision"],
+    "transmission": "O3 (OcuSync 3.0)"
+  },
+  {
+    "id": 25,
+    "model": "DJI Mavic 3 Classic",
+    "name": "Mavic 3 Classic",
+    "speed_kmh": 75,
+    "weight_g": 895,
+    "dimensions_mm": {
+      "folded": "221×96×90",
+      "unfolded": "347×283×107"
+    },
+    "camera": {
+      "sensor": "4/3\" CMOS (Hasselblad)",
+      "megapixels": 20,
+      "video_resolution": "5.1K@50fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 5000,
+      "max_flight_time_min": 46
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Omnidirectional Vision"],
+    "transmission": "O3 (OcuSync 3.0)"
+  },
+  {
+    "id": 26,
+    "model": "DJI Mavic 3 Pro",
+    "name": "Mavic 3 Pro",
+    "speed_kmh": 75,
+    "weight_g": 958,
+    "dimensions_mm": {
+      "folded": "231×98×94",
+      "unfolded": "347×283×108"
+    },
+    "camera": {
+      "sensor": "Triple Camera: 4/3\" CMOS, 1/1.3\" CMOS (x2)",
+      "megapixels": 20,
+      "video_resolution": "5.1K@50fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 5000,
+      "max_flight_time_min": 43
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Omnidirectional Vision"],
+    "transmission": "O3 (OcuSync 3.0)"
+  },
+  {
+    "id": 27,
+    "model": "DJI Mini 4 Pro",
+    "name": "Mini 4 Pro",
+    "speed_kmh": 79,
+    "weight_g": 249,
+    "dimensions_mm": {
+      "folded": "148×94×64",
+      "unfolded": "251×362×70"
+    },
+    "camera": {
+      "sensor": "1/1.3\" CMOS",
+      "megapixels": 48,
+      "video_resolution": "4K@100fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 2590,
+      "max_flight_time_min": 34
+    },
+    "max_altitude_m": 4000,
+    "sensors": ["360° Omnidirectional Vision"],
+    "transmission": "O4 (OcuSync 4.0)"
+  },
+  {
+    "id": 28,
+    "model": "DJI Air 2S",
+    "name": "Air 2S",
+    "speed_kmh": 68,
+    "weight_g": 595,
+    "dimensions_mm": {
+      "folded": "180×97×84",
+      "unfolded": "183×253×77"
+    },
+    "camera": {
+      "sensor": "1\" CMOS",
+      "megapixels": 20,
+      "video_resolution": "5.4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 3500,
+      "max_flight_time_min": 31
+    },
+    "max_altitude_m": 5000,
+    "sensors": ["Forward, Backward, Downward Vision"],
+    "transmission": "OcuSync 3.0"
+  },
+  {
+    "id": 29,
+    "model": "DJI Air 3",
+    "name": "Air 3",
+    "speed_kmh": 93,
+    "weight_g": 720,
+    "dimensions_mm": {
+      "folded": "208×91×84",
+      "unfolded": "283×326×105"
+    },
+    "camera": {
+      "sensor": "Dual 1/1.3\" CMOS",
+      "megapixels": 48,
+      "video_resolution": "4K@100fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 4241,
+      "max_flight_time_min": 46
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Omnidirectional Vision"],
+    "transmission": "O4 (OcuSync 4.0)"
+  },
+  {
+    "id": 30,
+    "model": "DJI Mavic 3 Enterprise",
+    "name": "Mavic 3E",
+    "speed_kmh": 75,
+    "weight_g": 940,
+    "dimensions_mm": {
+      "folded": "221×96×94",
+      "unfolded": "347×283×107"
+    },
+    "camera": {
+      "sensor": "4/3\" CMOS",
+      "megapixels": 20,
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 5000,
+      "max_flight_time_min": 45
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Omnidirectional Vision", "RTK Module (Optional)"],
+    "transmission": "O3 (OcuSync 3.0)"
+  },
+  {
+    "id": 31,
+    "model": "DJI Matrice 300 RTK",
+    "name": "Matrice 300 RTK",
+    "speed_kmh": 82,
+    "weight_g": 9000,
+    "dimensions_mm": {
+      "folded": "430×420×430",
+      "unfolded": "810×670×430"
+    },
+    "camera": {
+      "sensor": "Interchangeable (e.g., Zenmuse H20)",
+      "megapixels": "Varies",
+      "video_resolution": "Varies",
+      "gimbal": "Varies (Interchangeable)"
+    },
+    "battery": {
+      "capacity_mAh": "TB60 (Multiple)",
+      "max_flight_time_min": 55
+    },
+    "max_altitude_m": 5000,
+    "sensors": ["Advanced AI & RTK", "Omnidirectional Vision", "ToF"],
+    "transmission": "OcuSync Enterprise"
+  },
+  {
+    "id": 32,
+    "model": "DJI Matrice 350 RTK",
+    "name": "Matrice 350 RTK",
+    "speed_kmh": 82,
+    "weight_g": 9200,
+    "dimensions_mm": {
+      "folded": "430×420×430",
+      "unfolded": "810×670×430"
+    },
+    "camera": {
+      "sensor": "Interchangeable (e.g., Zenmuse H20N)",
+      "megapixels": "Varies",
+      "video_resolution": "Varies",
+      "gimbal": "Varies (Interchangeable)"
+    },
+    "battery": {
+      "capacity_mAh": "TB65 (Multiple)",
+      "max_flight_time_min": 55
+    },
+    "max_altitude_m": 5000,
+    "sensors": ["Advanced AI & RTK", "Omnidirectional Vision", "ToF"],
+    "transmission": "O3 Enterprise"
+  },
+  {
+    "id": 33,
+    "model": "DJI Agras T40",
+    "name": "Agras T40",
+    "speed_kmh": 50,
+    "weight_g": 48500,
+    "dimensions_mm": {
+      "folded": "1270×1230×740",
+      "unfolded": "2870×2670×740"
+    },
+    "camera": {
+      "sensor": "Active Phased Array Radar & Vision",
+      "megapixels": "N/A",
+      "video_resolution": "N/A",
+      "gimbal": "None"
+    },
+    "battery": {
+      "capacity_mAh": "30000 (Modular)",
+      "max_flight_time_min": "Varies"
+    },
+    "max_altitude_m": 2000,
+    "sensors": ["Binocular Vision", "Active Phased Array Radar"],
+    "transmission": "O3 Enterprise"
+  },
+  {
+    "id": 34,
+    "model": "DJI Spark",
+    "name": "Spark",
+    "speed_kmh": 50,
+    "weight_g": 300,
+    "dimensions_mm": {
+      "folded": "143×143×55",
+      "unfolded": "143×143×55"
+    },
+    "camera": {
+      "sensor": "1/2.3\" CMOS",
+      "megapixels": 12,
+      "video_resolution": "1080p@30fps",
+      "gimbal": "2-axis"
+    },
+    "battery": {
+      "capacity_mAh": 1480,
+      "max_flight_time_min": 16
+    },
+    "max_altitude_m": 4000,
+    "sensors": ["Forward Vision", "3D Sensing"],
+    "transmission": "Enhanced Wi-Fi"
+  },
+  {
+    "id": 35,
+    "model": "DJI Mavic 3 Thermal",
+    "name": "Mavic 3T",
+    "speed_kmh": 75,
+    "weight_g": 940,
+    "dimensions_mm": {
+      "folded": "221×96×94",
+      "unfolded": "347×283×107"
+    },
+    "camera": {
+      "sensor": "4/3\" CMOS & Thermal",
+      "megapixels": "20 (Visual)",
+      "video_resolution": "4K@30fps",
+      "gimbal": "3-axis"
+    },
+    "battery": {
+      "capacity_mAh": 5000,
+      "max_flight_time_min": 45
+    },
+    "max_altitude_m": 6000,
+    "sensors": ["Omnidirectional Vision", "Radiometric Thermal"],
+    "transmission": "O3 (OcuSync 3.0)"
+  },
+  {
+    "id": 36,
+    "model": "DJI Inspire 3",
+    "name": "Inspire 3",
+    "speed_kmh": 94,
+    "weight_g": 3995,
+    "dimensions_mm": {
+      "folded": "435×430×310",
+      "unfolded": "435×430×310"
+    },
+    "camera": {
+      "sensor": "Full-Frame (Zenmuse X9)",
+      "megapixels": "Up to 45",
+      "video_resolution": "8K@75fps",
+      "gimbal": "3-axis (Interchangeable)"
+    },
+    "battery": {
+      "capacity_mAh": "TB51 (Dual)",
+      "max_flight_time_min": 28
+    },
+    "max_altitude_m": 4500,
+    "sensors": ["Omnidirectional Vision", "RTK"],
+    "transmission": "O3 Enterprise"
+  },
+  {
+    "id": 37,
+    "model": "DJI M30 Series",
+    "name": "Matrice 30",
+    "speed_kmh": 82,
+    "weight_g": 3770,
+    "dimensions_mm": {
+      "folded": "365×224×173",
+      "unfolded": "430×420×215"
+    },
+    "camera": {
+      "sensor": "Integrated (Wide, Zoom, Thermal, Laser Rangefinder)",
+      "megapixels": "12 (Wide)",
+      "video_resolution": "1080p@30fps",
+      "gimbal": "Integrated"
+    },
+    "battery": {
+      "capacity_mAh": "TB30 (Dual)",
+      "max_flight_time_min": 41
+    },
+    "max_altitude_m": 5000,
+    "sensors": ["Omnidirectional Vision", "Thermal", "Laser Rangefinder"],
+    "transmission": "O3 Enterprise"
+  }
 ]
